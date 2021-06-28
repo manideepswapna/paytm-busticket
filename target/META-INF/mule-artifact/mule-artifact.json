@@ -1,0 +1,28 @@
+{
+  "configs": [
+    "router.xml",
+    "config.xml",
+    "logic.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "bus-ticket",
+  "minMuleVersion": "4.1.1",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedResources": [
+        "api/api.raml",
+        "apiconfig.properties",
+        "config-bus-ticket.yaml",
+        "config-shared.yaml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
